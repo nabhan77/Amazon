@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg amazon-navbar">
+        <div class="container-fluid"> <!-- Logo --> <a class="navbar-brand text-white fw-bold fs-3" href="#"> amazon
+            </a> <!-- Mobile Menu Button --> <button class="navbar-toggler bg-light" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarContent"> <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent"> <!-- Location -->
+                <div class="location text-white ms-lg-3"> <small>Deliver to</small> <br> <strong>📍 India</strong>
+                </div> <!-- Search -->
+                <form class="d-flex search-box mx-lg-4 my-3 my-lg-0"> <select>
+                        <option>All</option>
+                        <option>Electronics</option>
+                        <option>Fashion</option>
+                        <option>Books</option>
+                    </select> <input type="text" class="form-control" placeholder="Search Amazon"> <button
+                        type="submit">🔍</button> </form> <!-- Right Menu -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"> <a class="nav-link text-white" href="#"> Hello, sign in <br> <strong>Account &
+                                Lists</strong> </a> </li>
+                    <li class="nav-item"> <a class="nav-link text-white" href="#"> Returns <br> <strong>&
+                                Orders</strong> </a> </li>
+                    <li class="nav-item"> <a class="nav-link text-white cart" href="#"> 🛒 <strong>Cart</strong> </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> <!-- ================= SECOND NAVBAR ================= -->
+    <div class="second-navbar">
+        <div class="container-fluid"> <a href="#">☰ All</a> <a href="#">Today's Deals</a> <a href="#">Customer
+                Service</a> <a href="#">Registry</a> <a href="#">Gift Cards</a> <a href="#">Sell</a> </div>
+    </div> <!-- ================= HERO SECTION ================= -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Amazon</h1>
+            <p> Find everything you need at great prices. </p> <button class="btn btn-warning"> Shop Now </button>
+        </div>
+    </section> <!-- ================= CATEGORY CARDS ================= -->
+    <section class="container-fluid products-section">
+        <div class="row g-4"> <!-- Card 1 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="category-card">
+                    <h3>Electronics</h3>
+                    <div class="category-image"> 📱 </div>
+                    <p>Phones, laptops & more</p> <a href="#">Shop now</a>
+                </div>
+            </div> <!-- Card 2 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="category-card">
+                    <h3>Fashion</h3>
+                    <div class="category-image"> 👕 </div>
+                    <p>Clothing and accessories</p> <a href="#">Shop now</a>
+                </div>
+            </div> <!-- Card 3 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="category-card">
+                    <h3>Home & Kitchen</h3>
+                    <div class="category-image"> 🏠 </div>
+                    <p>Everything for your home</p> <a href="#">Shop now</a>
+                </div>
+            </div> <!-- Card 4 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="category-card">
+                    <h3>Books</h3>
+                    <div class="category-image"> 📚 </div>
+                    <p>Books for everyone</p> <a href="#">Shop now</a>
+                </div>
+            </div>
+        </div>
+    </section> <!-- ================= PRODUCTS ================= -->
+    <section class="container-fluid products-section">
+        <h2>Popular Products</h2>
+        <div class="row g-4"> <!-- Product 1 -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img"> 🎧 </div>
+                    <h5>Wireless Headphones</h5>
+                    <p class="rating">★★★★★</p>
+                    <h4>₹1,499</h4> <button class="btn btn-warning w-100 add-cart"> Add to Cart </button>
+                </div>
+            </div> <!-- Product 2 -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img"> ⌚ </div>
+                    <h5>Smart Watch</h5>
+                    <p class="rating">★★★★☆</p>
+                    <h4>₹2,999</h4> <button class="btn btn-warning w-100 add-cart"> Add to Cart </button>
+                </div>
+            </div> <!-- Product 3 -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img"> 💻 </div>
+                    <h5>Laptop</h5>
+                    <p class="rating">★★★★★</p>
+                    <h4>₹54,999</h4> <button class="btn btn-warning w-100 add-cart"> Add to Cart </button>
+                </div>
+            </div> <!-- Product 4 -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img"> 📷 </div>
+                    <h5>Digital Camera</h5>
+                    <p class="rating">★★★★☆</p>
+                    <h4>₹39,999</h4> <button class="btn btn-warning w-100 add-cart"> Add to Cart </button>
+                </div>
+            </div>
+        </div>
+    </section> <!-- ================= FOOTER ================= -->
+    <footer>
+        <!-- <div class="back-top"><button> Back to top </button></div> -->
+        <div class="footer-content">
+            <div>
+                <h5>Get to Know Us</h5> <a href="#">About Us</a> <a href="#">Careers</a> <a href="#">Press Releases</a>
+            </div>
+            <div>
+                <h5>Connect with Us</h5> <a href="#">Facebook</a> <a href="#">Instagram</a> <a href="#">Twitter</a>
+            </div>
+            <div>
+                <h5>Make Money with Us</h5> <a href="#">Sell on Amazon</a> <a href="#">Advertise Products</a> <a
+                    href="#">Become an Affiliate</a>
+            </div>
+            <div>
+                <h5>Let Us Help You</h5> <a href="#">Your Account</a> <a href="#">Returns Centre</a> <a
+                    href="#">Help</a>
+            </div>
+        </div>
+        <div class="footer-bottom"> © 2026 Amazon Clone — Educational Project </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+</html>
